@@ -41,8 +41,9 @@ The base theme profile is `one-darker-pro`, but I dislike the use of reds for pa
 
 # Other forewords
 ## Keyboard Shortcuts
-![red] You might want to reset the keybindings or not import the keybindings that are included in the settings files. These are what I remember, not the full extent of my terrorism towards your muscle memory.
-
+```diff 
+- You might want to reset the keybindings or not import the keybindings that are included in the settings files. These are what I remember, not the full extent of my terrorism towards your muscle memory.
+```
 
 ### Visual Studio Code
 - Delete Line (no cut): `shift` + `delete`
