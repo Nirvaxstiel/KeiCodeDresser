@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz Showcase</title>
+</head>
+
+<body>
+    <h1>FizzBuzz Results</h1>
+    <div id="fizzbuzz"></div>
+    <script>
+        const addOperation = x => x + 2;
+        const fizzBuzzOperation = num => {
+            let output = '';
+            if (num % 3 === 0) output += 'Fizz';
+            if (num % 5 === 0) output += 'Buzz';
+            return output || num;
+        };
+
+        const processNumbers = async (numbers, operation) => {
+            try {
+                return numbers.map(operation);
+            } catch (error) {
+                console.error(`Error processing numbers: ${error}`);
+            }
+        };
+
+        const numbers = Array.from({ length: 15 }, (_, i) => i + 1);
+
+        processNumbers(numbers, fizzBuzzOperation).then(results => {
+            const container = document.getElementById('fizzbuzz');
+            results.forEach(result => {
+                const element = document.createElement('p');
+                element.textContent = result;
+                container.appendChild(element);
+            });
+        });
+    </script>
+</body>
+
+</html>

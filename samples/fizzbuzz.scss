@@ -1,0 +1,16 @@
+/* SCSS Example */
+$fizz-color: #3498db;
+$buzz-color: #e74c3c;
+$fizzbuzz-color: #9b59b6;
+$default-color: #2c3e50;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+p {
+  &.fizz { color: $fizz-color; }
+  &.buzz { color: $buzz-color; }
+  &.fizzbuzz { color: $fizzbuzz-color; }
+  &:not(.fizz, .buzz, .fizzbuzz) { color: $default-color; }
+}
