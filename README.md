@@ -1,14 +1,13 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [KeiCodeDresser: Visual Studio \& VS-Code Theme \& Configurations.](#keicodedresser-visual-studio--vs-code-theme--configurations)
-- [How to Use](#how-to-use)
-  - [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
 - [Visual Studio (2022)](#visual-studio-2022)
-    - [Setting up](#setting-up)
+    - [Setting up for Visual Studio](#setting-up-for-visual-studio)
     - [Why do some of my methods appear `RED` instead of what the screenshots show?](#why-do-some-of-my-methods-appear-red-instead-of-what-the-screenshots-show)
 - [Visual Studio Code/Cursor](#visual-studio-codecursor)
-  - [Setting up](#setting-up-1)
-- [So which is it, Kei or Nirvaxstiel](#so-which-is-it-kei-or-nirvaxstiel)
+  - [Setting up](#setting-up)
+
 
 # KeiCodeDresser: Visual Studio & VS-Code Theme & Configurations.
 
@@ -16,11 +15,9 @@ This repository contains a collection of extensions and my personal customized t
 
 The base theme profile is `one-darker-pro`, but I dislike the use of reds for parameters and keywords.
 
-# How to Use
-
-Feel free to explore the repository and use any of the configurations for your development environment.
-## Prerequisites
+# Prerequisites
 1. Nerd Fonts
+   
    I use the following nerd font from [Oh-My-Posh](https://ohmyposh.dev/docs/installation/fonts)
    ```powershell
    # using omp
@@ -41,13 +38,14 @@ Feel free to explore the repository and use any of the configurations for your d
 # Visual Studio (2022)
 ![Screenshot of Visual Studio Theme](/visual_studio/vs2022/vs2022.png)
 
-### Setting up
+### Setting up for Visual Studio
 1. Fetch the extensions from the [Visual Studio Folder](/visual_studio/vs2022/extensions.vsext)
 2. Find `Extensions`\ `Import and Export Extensions`\ `Import Extensions` and import the `.vsext`
    ![How to import extensions](images/howtoimportextensions.png)
 3. Close/Restart your Visual Studio to finish installing the extensions.
 4. Fetch the font colours, settings used from the [Visual Studio Folder](/visual_studio/vs2022/Exported-2024-02-16.vssettings)
 5. Find `Tools`\ `Import and Export Settings`
+   
    ![How to import settings](/images/howtoimportsettings.png)
 6. Follow the import wizard and don't forget to back up your current settings.
    ![Settings Wizard](images/importsettingswizard.png)
@@ -73,5 +71,5 @@ All you need to do is to import the [.code-profile](/vscode/Cursor-VSCode.code-p
 
 ![Alt text](images/howtoimportprofile.png)
 
-# So which is it, Kei or Nirvaxstiel
-Both
+*So which is it, Kei or Nirvaxstiel*
+> ***Both***
