@@ -1,3 +1,15 @@
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [KeiCodeDresser: Visual Studio \& VS-Code Theme \& Configurations.](#keicodedresser-visual-studio--vs-code-theme--configurations)
+- [How to Use](#how-to-use)
+  - [Prerequisites](#prerequisites)
+- [Visual Studio (2022)](#visual-studio-2022)
+    - [Setting up](#setting-up)
+    - [Why do some of my methods appear `RED` instead of what the screenshots show?](#why-do-some-of-my-methods-appear-red-instead-of-what-the-screenshots-show)
+- [Visual Studio Code/Cursor](#visual-studio-codecursor)
+  - [Setting up](#setting-up-1)
+- [So which is it, Kei or Nirvaxstiel](#so-which-is-it-kei-or-nirvaxstiel)
+
 # KeiCodeDresser: Visual Studio & VS-Code Theme & Configurations.
 
 This repository contains a collection of extensions and my personal customized theme I've found useful or created to enhance my coding experience. It's organized by development environment, so you can easily find configurations relevant to your needs.
@@ -39,7 +51,8 @@ Feel free to explore the repository and use any of the configurations for your d
    ![How to import settings](/images/howtoimportsettings.png)
 6. Follow the import wizard and don't forget to back up your current settings.
    ![Settings Wizard](images/importsettingswizard.png)
-
+7. Update your ClaudiaIDE to set your own wallpapers
+   
 And, that's it!
 
 ### Why do some of my methods appear `RED` instead of what the screenshots show?
@@ -51,7 +64,7 @@ This is due to Roslynator. It overwrites some colours, including methods and suc
 # Visual Studio Code/Cursor
 
 ![Visual Studio Code/Cursor](vscode/vs-code.png)
-The theme looks blue here because my desktop wallpaper is blue, and it is on a shuffle basis.
+*<sub><center>The theme looks blue here because my desktop wallpaper is blue, and it is on a shuffle basis.</center></sub>*
 
 ## Setting up
 
@@ -60,5 +73,5 @@ All you need to do is to import the [.code-profile](/vscode/Cursor-VSCode.code-p
 
 ![Alt text](images/howtoimportprofile.png)
 
-## So which is it, Kei or Nirvaxstiel
+# So which is it, Kei or Nirvaxstiel
 Both
