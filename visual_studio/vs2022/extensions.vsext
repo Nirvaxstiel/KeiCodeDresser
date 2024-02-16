@@ -1,0 +1,92 @@
+{
+  "id": "7ae05cef-d029-4655-9be9-46b9429f021f",
+  "name": "My Visual Studio extensions",
+  "description": "A collection of my Visual Studio extensions",
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": "ClaudiaIDE",
+      "vsixId": "ClaudiaIDE..7442ac19-889b-4699-a817-e6e054877ee3",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=kbuchi.ClaudiaIDE",
+      "downloadUrl": "https://kbuchi.gallery.vsassets.io:443/_apis/public/gallery/publisher/kbuchi/extension/ClaudiaIDE/3.1.34/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "CM+",
+      "vsixId": "CM+.13cde750-c1a1-472b-9772-62754a4946f8",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=OlegShilo.CodeMaidPlus",
+      "downloadUrl": "https://olegshilo.gallery.vsassets.io:443/_apis/public/gallery/publisher/OlegShilo/extension/CodeMaidPlus/1.1.5/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "CodeMaid VS2022",
+      "vsixId": "9079e73d-3fbb-4e07-8dab-f44fa5d8e8b5",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaidVS2022",
+      "downloadUrl": "https://stevecadwallader.gallery.vsassets.io:443/_apis/public/gallery/publisher/SteveCadwallader/extension/CodeMaidVS2022/12.0.300/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Extension Manager 2022",
+      "vsixId": "3d183c28-64c6-4efb-a201-50310d65e675",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=Loop8ack.ExtensionManager2022",
+      "downloadUrl": "https://loop8ack.gallery.vsassets.io:443/_apis/public/gallery/publisher/Loop8ack/extension/ExtensionManager2022/1.2.180/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "File Icons",
+      "vsixId": "3a7b4930-a5fb-46ec-a9b8-9610c8f953b8",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons",
+      "downloadUrl": "https://madskristensen.gallery.vsassets.io:443/_apis/public/gallery/publisher/MadsKristensen/extension/FileIcons/2.8.239/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "IndentRainbow",
+      "vsixId": "IndentRainbow.f05146ed-8025-4668-b7b1-8a74bd22b241",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=chingucoding.IndentRainbow",
+      "downloadUrl": "https://chingucoding.gallery.vsassets.io:443/_apis/public/gallery/publisher/chingucoding/extension/IndentRainbow/1.3.4/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Live Share 2022",
+      "vsixId": "Microsoft.VisualStudio.LiveShare.2022",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs-2022",
+      "downloadUrl": "https://ms-vsliveshare.gallery.vsassets.io:443/_apis/public/gallery/publisher/MS-vsliveshare/extension/vsls-vs-2022/1.0.5883.0/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "MetaOutput 2022",
+      "vsixId": "METAOUTPUT.2022.2DEDB4CB-B638-4121-874B-191C988DFC69",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=ViacheslavLozinskyi.MetaOutput-2022",
+      "downloadUrl": "https://viacheslavlozinskyi.gallery.vsassets.io:443/_apis/public/gallery/publisher/ViacheslavLozinskyi/extension/MetaOutput-2022/2.1.1.195/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "One Dark Pro Darker",
+      "vsixId": "OneDarkProDarker.40480d34-7fec-49eb-9117-83737aaa3773",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=ngoquoctoandev.OneDarkPro",
+      "downloadUrl": "https://ngoquoctoandev.gallery.vsassets.io:443/_apis/public/gallery/publisher/ngoquoctoandev/extension/OneDarkPro/2024.1/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Roslynator 2022",
+      "vsixId": "f326ee1b-81a6-4577-b251-1f29d391cef3",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2022",
+      "downloadUrl": "https://josefpihrt.gallery.vsassets.io:443/_apis/public/gallery/publisher/josefpihrt/extension/Roslynator2022/4.10.0/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Textmate Grammar Template",
+      "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TextmateGrammarTemplate",
+      "downloadUrl": "https://madskristensen.gallery.vsassets.io:443/_apis/public/gallery/publisher/MadsKristensen/extension/TextmateGrammarTemplate/1.0.14/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Tweaks 2022",
+      "vsixId": "0c8bd9fa-77d5-4563-ab57-9e01608c3d05",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.Tweaks2022",
+      "downloadUrl": "https://madskristensen.gallery.vsassets.io:443/_apis/public/gallery/publisher/MadsKristensen/extension/Tweaks2022/1.1.143/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Viasfora",
+      "vsixId": "Winterdom.Viasfora.f7a33795-2b40-4125-856c-89b0bd8cd5ab",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora",
+      "downloadUrl": "https://tomasrestrepo.gallery.vsassets.io:443/_apis/public/gallery/publisher/TomasRestrepo/extension/Viasfora/4.5.220/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    },
+    {
+      "name": "Visual Studio Iconizer for Visual Studio 2022",
+      "vsixId": "4F193BD4-B46A-4268-9DFC-3247EB49651B",
+      "moreInfoUrl": "https://marketplace.visualstudio.com/items?itemName=OlegTarasov.Iconizer2022",
+      "downloadUrl": "https://olegtarasov.gallery.vsassets.io:443/_apis/public/gallery/publisher/OlegTarasov/extension/Iconizer2022/1.26/assetbyname/Microsoft.VisualStudio.Ide.Payload?redirect=true&update=true"
+    }
+  ]
+}
