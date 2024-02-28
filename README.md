@@ -69,7 +69,7 @@ The base theme profile is `one-darker-pro`, but I dislike the use of reds for pa
 2. Find `Extensions`\ `Import and Export Extensions`\ `Import Extensions` and import the `.vsext`
    ![How to import extensions](images/howtoimportextensions.png)
 3. Close/Restart your Visual Studio to finish installing the extensions.
-4. Fetch the font colours, settings used from the [Visual Studio Folder](/visual_studio/vs2022/Exported-2024-02-16.vssettings)
+4. Fetch the `.vssettings` used from the [Visual Studio Folder](/visual_studio/vs2022/)
 5. Find `Tools`\ `Import and Export Settings`
    
    ![How to import settings](/images/howtoimportsettings.png)
@@ -90,7 +90,7 @@ This is due to Roslynator. It overwrites some colours, including methods and suc
 
 ## Setting up
 
-All you need to do is to import the [.code-profile](/vscode/Cursor-VSCode.code-profile). This works on both VSCode and Cursor.
+All you need to do is to import the `.code-profile` in [.code-profile](/vscode/). This works on both VSCode and Cursor.
 
 ![Alt text](images/howtoimportprofile.png)
 
