@@ -8,9 +8,11 @@
     - [Visual Studio 2022](#visual-studio-2022)
 - [Visual Studio (2022)](#visual-studio-2022-1)
     - [Setting up for Visual Studio](#setting-up-for-visual-studio)
-    - [Why do some of my methods appear `RED` instead of what the screenshots show?](#why-do-some-of-my-methods-appear-red-instead-of-what-the-screenshots-show)
+    - [Why do some of my methods appear `RED` in Visual Studio instead of what the screenshots show?](#why-do-some-of-my-methods-appear-red-in-visual-studio-instead-of-what-the-screenshots-show)
 - [Visual Studio Code/Cursor](#visual-studio-codecursor)
   - [Setting up](#setting-up)
+    - [Sometimes, my VS-Code/Cursor window seems to have some fading/ghosting/artifacting?](#sometimes-my-vs-codecursor-window-seems-to-have-some-fadingghostingartifacting)
+- [Changelogs](#changelogs)
 
 
 # KeiCodeDresser: Visual Studio & VS-Code Theme & Configurations.
@@ -57,9 +59,10 @@ The base theme profile is `one-darker-pro`, but I dislike the use of reds for pa
 - Uncomment: `ctrl` + `shift` + `/`
 - Peek Inline Definition: `ctrl` + `click`
 - Open Explorer: `ctrl` + `;` <sub>#I actually don't remember if this was an explicit binding, but I know I do use it and it works.</sub>
+- Code Maid Spade: from `ctrl` + `m` + `.` to `ctrl` + `'`
 
 # Visual Studio (2022)
-![Screenshot of Visual Studio Theme](/visual_studio/vs2022/vs2022.png)
+![Screenshot of Visual Studio Theme](/visual_studio/vs2022/vs2022-28Feb2024.png)
 
 ### Setting up for Visual Studio
 1. Fetch the extensions from the [Visual Studio Folder](/visual_studio/vs2022/extensions.vsext)
@@ -74,9 +77,7 @@ The base theme profile is `one-darker-pro`, but I dislike the use of reds for pa
    ![Settings Wizard](images/importsettingswizard.png)
 7. Update your ClaudiaIDE to set your own wallpapers
    
-**And, that's it!**
-
-### Why do some of my methods appear `RED` instead of what the screenshots show?
+### Why do some of my methods appear `RED` in Visual Studio instead of what the screenshots show?
 
 This is due to Roslynator. It overwrites some colours, including methods and such to Red. You can override this under the `Tools`\ `Environment`\ `Fonts and Colours`\ `Identifier`. You can either keep it as is, or revert it to `Automatic` for both the foreground and the background. That should fix it.
 
@@ -91,8 +92,27 @@ This is due to Roslynator. It overwrites some colours, including methods and suc
 
 All you need to do is to import the [.code-profile](/vscode/Cursor-VSCode.code-profile). This works on both VSCode and Cursor.
 
-
 ![Alt text](images/howtoimportprofile.png)
+
+**And, that's it!**
+
+### Sometimes, my VS-Code/Cursor window seems to have some fading/ghosting/artifacting?
+
+You may need to disable GPU-Acceleration.
+![alt text](/images/disable-gpu-acceleration.png)
+
+`CTRL` + `P` or `F1` to pull up the command palette and find the `Preferences: Configure Runtime Arguments`
+![alt text](/images/ConfigureRuntimeArguments.png)
+
+Add the following line to `argv.json`
+```json
+"disable-hardware-acceleration": true
+```
+
+# Changelogs
+You can view the changelogs in each respective directory
+- [VS-Code/Cursor](/vscode/change.md)
+- [Visual Studio 2022](/visual_studio/vs2022/change.md)
 
 <details>
 <summary>Afterwords</summary>
